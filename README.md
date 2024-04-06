@@ -125,7 +125,7 @@ Two parts of the rubric are used to evaluate contributions: Part 1 is for extern
 
 * Documentation Improvement: The success of open-source projects depends on having thorough and understandable documentation. I can help by improving documentation, penning tutorials, and producing user manuals to help projects become more approachable for beginners.
 * Community Engagement: Maintaining open-source projects requires creating a vibrant and friendly community. I would like to help with community management tasks including planning events, leading conversations, and coaching new members.
-Looking for a project to work on Using GitHub Investigate and Make Available Sources Friday had a tonne of projects in a lot of different categories. I discovered projects with a variety of technologies and objectives, from easy for beginners to difficult. Analysing these initiatives allowed me to comprehend the improvements, bug fixes, and performance enhancements in open-source projects pertaining to artificial intelligence and natural language processing.
+Looking for a project to work on Using GitHub Investigate and Make Available Sources Friday had a tonne of projects in a lot of different categories. I discovered projects with a variety of technologies and objectives, from easy for beginners to difficult. Analysing these initiatives allowed me to comprehend the improvements, bug fixes, and performance enhancements in open-source projects about artificial intelligence and natural language processing.
 * Documentation Improvement: The success of open-source projects depends on having thorough and understandable documentation. I can help by improving documentation, penning tutorials, and producing user manuals to help projects become more approachable for beginners.
  various chances for contributions and the significance of identifying a project that fits my interests and skill set.
 * Thought on project exploration: I discovered popular and vibrant communities for projects like TensorFlow, VSCode, and Pandas throughout my exploration. Smaller initiatives concentrating on specialised fields like educational materials and accessibility tools were also revealed to me. The notion that there is a project for everyone, regardless of skill level, was strengthened by this experience and that finding the appropriate fit is key to contributing to open source.
@@ -133,3 +133,19 @@ Looking for a project to work on Using GitHub Investigate and Make Available Sou
 In conclusion, I now have a deeper grasp of open source contributions thanks to my investigation of projects and my trip through the Open Source Guides. I can't wait to share my expertise and experience to improve open-source initiatives, encourage teamwork, and benefit the community.
 
 [Citation: GitHub, n.d. How to Contribute to Open Source: Open Source Guides. taken from the website](https://opensource.guide/about-contribution/)
+
+## Activity 3 - Find Potential Projects to Contribute to
+ask Involved
+* Task 1 - Identifying and selecting open-source repositories from platforms like Good First Issues, Up for Grabs, and CodeTriage that align with your interests and skill set.
+* Task 2 - Analyzing the selected projects by reviewing available issues, understanding their requirements, discussing potential solutions with the community, and preparing contributions such as code changes or documentation updates.
+* Task 3 - Using the checklist helps figure out if any of the projects are a good match. This makes it easier to pick three projects that are relevant to us.
+* Task 4 - Take a screenshot when you have completed all checklist questions.
+
+## Activity 4 - Explore community connections
+## Task
+* Research community connections and Identify primary community platforms (Discord, Slack, Zulip) for open-source projects.
+* Spend some time familiarizing yourself with the community.
+* Follow as many relevant links from the repository back to potential communities that you can find (this might include looking carefully at maintainer GitHub profiles, websites and socials).
+* Write a summary of your discoveries in your Research and Reflection Journal.
+
+* 
