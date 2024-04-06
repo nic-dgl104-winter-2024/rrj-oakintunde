@@ -103,3 +103,33 @@ Studying programming languages and reading other people's postings has taught me
 * Wiegers, K. E., & Beatty, J. (2013). Software Requirements (3rd ed.). Microsoft Press.
 * [Agile Alliance. (n.d.). User Stories. Retrieved from](https://www.agilealliance.org/glossary/user-stories/)
 * [TechTarget. (2022). Functional Requirements. Retrieved from](https://searchsoftwarequality.techtarget.com/definition/functional-requirements)
+
+
+# Week 9 (March 5)
+## Activity 1 - Read the Community Code Assignment
+Make sure to visit the description of the Community Code assignment on Brightspace. You should read the assignment description and the rubric in detail to familiarize yourself with expectations.
+## Result
+There are two components to this assignment, which promote practising effective coding by getting involved in two open-source groups. While it is required to contribute to both sections, only one section can be involved in the code. Also, rather than finishing each section in turn, both should be finished at the same time.
+* Part 1: Enhance code documentation, respond to inquiries, write tutorials, translate code, and work on GitHub problems to make a genuine contribution to an open-source community. Make improvements, fork the project, and record your input.
+* Part 2: Add to a library of patterns related to software design and architecture for DGL 104 students. This entails generating CONTRIBUTING.md and README.md files as well as overseeing contributions via pull requests and problems.
+Two parts of the rubric are used to evaluate contributions: Part 1 is for external open-source communities, while Part 2 is for internal use.
+
+## Activity 2 - How to contribute to open source
+There are two components to this assignment, which promote practising effective coding by getting involved in two open-source groups. While it is required to contribute to both sections, only one section can be involved in the code. Also, rather than finishing each section in turn, both should be finished at the same time.
+
+* Part 1: Enhance code documentation, respond to inquiries, write tutorials, translate code, and work on GitHub problems to make a genuine contribution to an open-source community. Make improvements, fork the project, and record your input.
+
+* Part 2: Add to a library of patterns related to software design and architecture for DGL 104 students. This entails generating CONTRIBUTING.md and README files as well as overseeing contributions via pull requests and problems.
+
+Two parts of the rubric are used to evaluate contributions: Part 1 is for external open-source communities, while Part 2 is for internal use. Improvements, bug fixes, and performance enhancements in open-source projects about artificial intelligence and natural language processing.
+
+* Documentation Improvement: The success of open-source projects depends on having thorough and understandable documentation. I can help by improving documentation, penning tutorials, and producing user manuals to help projects become more approachable for beginners.
+* Community Engagement: Maintaining open-source projects requires creating a vibrant and friendly community. I would like to help with community management tasks including planning events, leading conversations, and coaching new members.
+Looking for a project to work on Using GitHub Investigate and Make Available Sources Friday had a tonne of projects in a lot of different categories. I discovered projects with a variety of technologies and objectives, from easy for beginners to difficult. Analysing these initiatives allowed me to comprehend the improvements, bug fixes, and performance enhancements in open-source projects pertaining to artificial intelligence and natural language processing.
+* Documentation Improvement: The success of open-source projects depends on having thorough and understandable documentation. I can help by improving documentation, penning tutorials, and producing user manuals to help projects become more approachable for beginners.
+ various chances for contributions and the significance of identifying a project that fits my interests and skill set.
+* Thought on project exploration: I discovered popular and vibrant communities for projects like TensorFlow, VSCode, and Pandas throughout my exploration. Smaller initiatives concentrating on specialised fields like educational materials and accessibility tools were also revealed to me. The notion that there is a project for everyone, regardless of skill level, was strengthened by this experience and that finding the appropriate fit is key to contributing to open source.
+
+In conclusion, I now have a deeper grasp of open source contributions thanks to my investigation of projects and my trip through the Open Source Guides. I can't wait to share my expertise and experience to improve open-source initiatives, encourage teamwork, and benefit the community.
+
+[Citation: GitHub, n.d. How to Contribute to Open Source: Open Source Guides. taken from the website](https://opensource.guide/about-contribution/)
