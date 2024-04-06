@@ -91,6 +91,6 @@ Exploring GitHub and giving stars is a new practice, I have learnt to gain knowl
 To complete this task, I explored the following:
 
 * [GitHub Explore](https://github.com/explore)
-* GitHub Topics
-* GitHub Trending
-* GitHub Collections
+* [GitHub Topics](https://github.com/topics)
+* [GitHub Trending](https://github.com/trending)
+* [GitHub Collections](https://github.com/collections)
