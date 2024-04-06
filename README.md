@@ -90,7 +90,7 @@ Exploring GitHub and giving stars is a new practice, I have learnt to gain knowl
 
 To complete this task, I explored the following:
 
-* GitHub Explore
+* [[GitHub Explore]([https://pages.github.com/](https://github.com/explore))](https://github.com/explore)
 * GitHub Topics
 * GitHub Trending
 * GitHub Collections
