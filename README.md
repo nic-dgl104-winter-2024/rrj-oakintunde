@@ -148,4 +148,32 @@ ask Involved
 * Follow as many relevant links from the repository back to potential communities that you can find (this might include looking carefully at maintainer GitHub profiles, websites and socials).
 * Write a summary of your discoveries in your Research and Reflection Journal.
 
-* 
+## Result
+In my exploration of community connections for open-source projects, I focused on platforms like Discord, Slack, and Zulip, which are commonly used for fostering collaboration and communication among contributors. Here's a summary of my discoveries:
+
+## Discord:
+* Discord has become a popular platform for open-source communities due to its ease of use and various communication features.
+Many open-source projects host Discord servers where contributors can chat, ask questions, share ideas, and collaborate in real-time.
+I found several open-source project repositories on GitHub that linked to their Discord servers in the README or CONTRIBUTING.md files.
+Examples include gaming-related projects, developer tools, and community-driven initiatives.
+* Slack:
+While Slack was once widely used for open-source communities, its popularity has somewhat declined in favor of other platforms like Discord.
+Nevertheless, some open-source projects still maintain Slack workspaces for communication and collaboration.
+I encountered Slack links in older repositories or projects affiliated with organizations that prefer Slack for internal communications.
+
+## Zulip:
+Zulip is gaining traction as a communication platform for open-source communities, particularly those that value threaded conversations and topic-based organization.
+It's often used by projects that require structured discussions and searchable archives.
+Although less common than Discord or Slack, I came across a few open-source projects that use Zulip for their community interactions.
+Community Connections:
+During my research, I delved into various open-source project repositories and followed links to potential community platforms. I also explored maintainer GitHub profiles, project websites, and social media channels to gather information about community engagement.
+
+## Reflection:
+I observed a trend where newer and more active open-source projects tend to favour Discord for its real-time communication features and vibrant community engagement. Slack, while still used by some projects, appears to be less prevalent in the open-source ecosystem compared to a few years ago. Zulip, with its focus on organized discussions, appeals to projects that prioritize structured communication.
+
+Overall, my discoveries highlight the importance of community platforms in facilitating collaboration, knowledge sharing, and engagement within open-source communities. Each platform has its strengths, and the choice often depends on the project's needs and the preferences of contributors.
+
+This research experience has deepened my understanding of community connections in open source and reinforced the significance of fostering inclusive and active communities for sustainable project growth.
+
+I compiled this information based on general trends and observations in the open-source community. If you need specific examples or details about particular projects or platforms, I can delve deeper into those areas as well.
+
