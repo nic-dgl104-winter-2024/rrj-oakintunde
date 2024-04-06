@@ -225,7 +225,7 @@ const searchBox = await page.waitForSelector('devsite-search[search-active] inpu
 await searchBox?.type('CLS');
 await searchBox?.press('Enter');
 
-// Ensure search results have rendered before moving on.
+// Ensure search results have been rendered before moving on.
 await page.waitForSelector('devsite-content a[href="https://web.dev/articles/cls"]');
 
 const timespanResults = await timespan.endTimespan();
@@ -238,15 +238,15 @@ await browser.close();
 
 Conversations - They discuss the node equivalent of running timespan mode in the DevTools panel. A flow you need to call flow.startTimespan to get timespan results in the flow report.
 
-## Project 3: Storybook
-Here you can find the issue - More clarity on what including compodoc does?#24944
+## Project 3: OpenSearch
+Here you can find the issue - [Easy and fluent disaster recovery (3.0?) #11894](https://github.com/opensearch-project/OpenSearch/issues/11894)
 
-Label: angular, cli, documentation, good first issue, help wanted
+Label: Enhancement, Storage:Snapshots
 
-Issue description - The issue was opened by user fireflysemantics on Nov 21, 2023, who requested more documentation on what including Compodoc does in the Angular CLI. The user noted that when setting up an Angular project with Storybook, the CLI asks if users want to use Compodoc, but there isn't enough clarity on its functionality.
+Issue description - The issue was opened by user "sandervandegeijn" on Jan 15, 2024, who requested more documentation on what including Compodoc does in the Angular CLI. The user noted that when setting up an Angular project with Storybook, the CLI asks if users want to use Compodoc, but there isn't enough clarity on its functionality.
 
-Contribution - There is need to work on improving the clarity of Compodoc's documentation within Angular CLI.
+Contribution - There is a need to work on improving the clarity of Compodoc's documentation within Angular CLI.
 
-Conversations - The labels like "good first issue" and "help wanted," this presents an accessible opportunity for newcomers to contribute. The ongoing conversation revolves around understanding Compodoc's role, with key contributors providing insights into its functionality and interaction with Storybook.
+Conversations - The labels like "good first issue" and "help wanted," this present an accessible opportunity for newcomers to contribute. The ongoing conversation revolves around understanding Compodoc's role, with key contributors providing insights into its functionality and interaction with Storybook.
 
 I decided to work on the issue of storybook project for contribution in my community code part 1.
