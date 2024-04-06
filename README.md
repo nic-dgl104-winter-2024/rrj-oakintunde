@@ -64,4 +64,8 @@ An organised introduction to Wyvern, including its features, syntax, and design 
 
 "Are you familiar with Wyvern? It is a programming language with an emphasis on composability and language-based security. Wyvern is frequently used by researchers, developers, and educators who are interested in safe software design and instruction. Visit the official Wyvern website for tutorials and documentation, and sign up for the GitHub repository to access samples and engage in community outreach."
 
-
+# Activity 3 - Write a user story (Spotify)
+For my app user story, I choose Spotify. 
+* "As a user of the "Spotify" app, I can create and manage playlists to organize my favourite songs".
+* "As a user of the "Spotify" app, I can discover new music through curated playlists based on my listening preferences."
+* "As a user of the "Spotify" app, I can collaborate on playlists with friends to create shared music experiences."
