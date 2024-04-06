@@ -98,3 +98,8 @@ To complete this task, I explored the following:
 ## Reflections
 Studying programming languages and reading other people's postings has taught me a few intriguing things, like how many different languages there are, each with special advantages and uses. Python appeals to me for DGL 104 because of its flexibility, ease of learning, and plenty of libraries. Because JavaScript is so widely used in web development and can be used to construct interactive interfaces, it would be my second option. I was aback by the wide variety of projects seen in GitHub repositories, ranging from straightforward tools to intricate systems. I discovered that using contemporary frameworks or tools, actively contributing to the community, and having well-documented code were all common.
 
+## References:
+* Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley Professional.
+* Wiegers, K. E., & Beatty, J. (2013). Software Requirements (3rd ed.). Microsoft Press.
+* [Agile Alliance. (n.d.). User Stories. Retrieved from](https://www.agilealliance.org/glossary/user-stories/)
+* [TechTarget. (2022). Functional Requirements. Retrieved from](https://searchsoftwarequality.techtarget.com/definition/functional-requirements)
