@@ -172,8 +172,81 @@ During my research, I delved into various open-source project repositories and f
 I observed a trend where newer and more active open-source projects tend to favour Discord for its real-time communication features and vibrant community engagement. Slack, while still used by some projects, appears to be less prevalent in the open-source ecosystem compared to a few years ago. Zulip, with its focus on organized discussions, appeals to projects that prioritize structured communication.
 
 Overall, my discoveries highlight the importance of community platforms in facilitating collaboration, knowledge sharing, and engagement within open-source communities. Each platform has its strengths, and the choice often depends on the project's needs and the preferences of contributors.
-
 This research experience has deepened my understanding of community connections in open source and reinforced the significance of fostering inclusive and active communities for sustainable project growth.
-
 I compiled this information based on general trends and observations in the open-source community. If you need specific examples or details about particular projects or platforms, I can delve deeper into those areas as well.
 
+## Activity 5 - Identify issues to support
+These are the steps taken to complete this activity:
+* Visit the GitHub repository for each of the three projects identified in the previous activity.
+* Open the "Issues" tab within each repository.
+* Take note of the different tags available under the "Labels" dropdown menu.
+* Look for tags such as "good first issue" or "help wanted" among others.
+* Read through the issues tagged with "good first issue" or "help wanted" (or any other interesting tags).
+* Identify at least one issue that you feel you could contribute to.
+* Write a summary of the issue in your Research and Reflection Journal. include the URL of the issue, a brief description of the problem, and how you think you can contribute or where you would start.
+* Summarize any discussions already present in the issue between community members.
+
+## Result
+To complete this activity, I thoroughly reviewed the issues in my chosen project repositories, filtering them by labels such as "help wanted" and "good first issue." From various available issues, I selected these three that align with my skills and interests.
+
+## Project 1: Prayer Times Menubar App
+
+[Here you can find the issues here](https://github.com/b0bdN/prayer-times-menubar-app/issues/3)
+Label: Enhancement, New feature, Help Wanted
+
+Issue description - The issue was opened by user "b0bdN" on Feb 15, 2022, expressing that the function getNextPrayer() in renderer.js can be better. The aim is to show the next prayer with the difference between the prayer time and the actual time. Also to add more language translation on the app.
+
+Contribution - [Wrote JSON language translation for Pakistan, Nigerian (Yoruba language) and Italian](https://github.com/b0bdN/prayer-times-menubar-app/issues/26)
+Conversations - 
+
+## Project 2: Light house
+
+Here you can find the issue - [Add Applause-button to swag items #104
+](https://github.com/GoogleChrome/lighthouse/issues/15891)
+Label: docs, P2
+
+Issue description - The issue was opened by user "ChristopherPHolder" in March 2024, lighthouse is exposing a method called startTimespan and unable to find any documentation on it: user-flow docs.
+
+Contribution - made the timespan work
+```
+import { startTimespan } from 'lighthouse';
+import { launch } from "puppeteer";
+import { writeFileSync } from "fs";
+
+const browser = await launch({headless: false});
+const page = await browser.newPage();
+
+await page.goto('https://web.dev/');
+
+const timespan = await startTimespan(page);
+
+await page.click('button[search-open]');
+const searchBox = await page.waitForSelector('devsite-search[search-active] input');
+await searchBox?.type('CLS');
+await searchBox?.press('Enter');
+
+// Ensure search results have rendered before moving on.
+await page.waitForSelector('devsite-content a[href="https://web.dev/articles/cls"]');
+
+const timespanResults = await timespan.endTimespan();
+
+// Save results as JSON.
+writeFileSync('timespan-result.json', JSON.stringify(timespanResults, null, 2));
+
+await browser.close();
+```
+
+Conversations - They discuss the node equivalent of running timespan mode in the DevTools panel. A flow you need to call flow.startTimespan to get timespan results in the flow report.
+
+## Project 3: Storybook
+Here you can find the issue - More clarity on what including compodoc does?#24944
+
+Label: angular, cli, documentation, good first issue, help wanted
+
+Issue description - The issue was opened by user fireflysemantics on Nov 21, 2023, who requested more documentation on what including Compodoc does in the Angular CLI. The user noted that when setting up an Angular project with Storybook, the CLI asks if users want to use Compodoc, but there isn't enough clarity on its functionality.
+
+Contribution - There is need to work on improving the clarity of Compodoc's documentation within Angular CLI.
+
+Conversations - The labels like "good first issue" and "help wanted," this presents an accessible opportunity for newcomers to contribute. The ongoing conversation revolves around understanding Compodoc's role, with key contributors providing insights into its functionality and interaction with Storybook.
+
+I decided to work on the issue of storybook project for contribution in my community code part 1.
