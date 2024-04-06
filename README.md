@@ -94,3 +94,7 @@ To complete this task, I explored the following:
 * [GitHub Topics](https://github.com/topics)
 * [GitHub Trending](https://github.com/trending)
 * [GitHub Collections](https://github.com/collections)
+
+## Reflections
+Studying programming languages and reading other people's postings has taught me a few intriguing things, like how many different languages there are, each with special advantages and uses. Python appeals to me for DGL 104 because of its flexibility, ease of learning, and plenty of libraries. Because JavaScript is so widely used in web development and can be used to construct interactive interfaces, it would be my second option. I was aback by the wide variety of projects seen in GitHub repositories, ranging from straightforward tools to intricate systems. I discovered that using contemporary frameworks or tools, actively contributing to the community, and having well-documented code were all common.
+
