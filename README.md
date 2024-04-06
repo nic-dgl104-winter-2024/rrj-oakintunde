@@ -86,3 +86,11 @@ The flexibility and extensive use of JavaScript are one particular reason I'd li
 I'm interested in hearing your opinions and recommendations on this!
 
 ## Activity 5 - Star GitHub topics repositories of interest
+Exploring GitHub and giving stars is a new practice, I have learnt to gain knowledge regarding different open-source communities and their latest trends. Also, giving stars to interesting topics will be useful for us in future to stay updated for potential learnings.
+
+To complete this task, I explored the following:
+
+* GitHub Explore
+* GitHub Topics
+* GitHub Trending
+* GitHub Collections
