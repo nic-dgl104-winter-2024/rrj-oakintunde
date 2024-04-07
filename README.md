@@ -262,9 +262,9 @@ About last week's programming language selection, JavaScript continues to be the
 References
 How to contribute to open source. (2024, February 8). Open Source Guides: (https://opensource.guide/how-to-contribute/)
 
-[Good First Issues](https://goodfirstissue.dev/)
+* [Good First Issues](https://goodfirstissue.dev/)
+* [Up for Grabs](https://up-for-grabs.net/#/)
+* [CodeTriage](https://www.codetriage.com/)
 
-[Up for Grabs](https://up-for-grabs.net/#/)
 
-[CodeTriage](https://www.codetriage.com/)
 
