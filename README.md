@@ -246,3 +246,15 @@ Issue description - The issue was opened by user "sandervandegeijn" on Jan 15, 2
 Contribution - There is a need to work on improving the clarity of Compodoc's documentation within Angular CLI.
 
 Conversations - The labels like "Storage  issue",  present an accessible opportunity for storage. The ongoing conversation revolves around understanding snapshots sto, with key contributors providing insights into its functionality and interaction with OpenSearch..
+
+## Reflection
+What is the most surprising thing that you’ve learned about open-source development and/or open-source communities during your research this week?
+The incredible level of collaboration of people from different backgrounds in a particular community. Also, I learnt about the overall process of PR, issue searching and much more in this week which is a great learning.
+What types of open-source projects do you find yourself most drawn to? Is there an obvious connection between them?
+I am mostly interested in open-source projects that involve JavaScript. Since I am familiar with JavaScript, I find these projects more achievable and meaningful contributions for contributing. I have more interest in the prayer times Menubar app and OpenSearch.
+Is the programming language that you chose last week still the right choice? Should you consider alternatives?
+
+## Result
+The thing that surprised me the most about open-source development and communities this week was how closely people from different backgrounds collaborated. It was incredibly motivating to see this degree of cooperation and shared enthusiasm for project advancement. I also learned a lot about issue tracking, community involvement, and the PR process, which improved my comprehension of open-source dynamics.
+I feel that JavaScript-based projects, especially ones that use open search and Lighthouse, pique my attention the most when it comes to open-source initiatives. These projects seem like a perfect fit for my experience with JavaScript, which will allow me to make significant contributions and advance personally.
+About last week's programming language selection, JavaScript continues to be the best option for me because of its adaptability and extensive usage in the initiatives that I find appealing. Alternatives, though, are welcome to be investigated if they better fit the plans for upcoming projects.
