@@ -266,7 +266,6 @@ How to contribute to open source. (2024, February 8). Open Source Guides: (https
 * [Up for Grabs](https://up-for-grabs.net/#/)
 * [CodeTriage](https://www.codetriage.com/)
 
-
 ## Week 10 ( Mar. 11)
 ## Activity 1 - Assess external community contribution Guidelines
 ## Task
@@ -277,3 +276,7 @@ The Prayer Times Menu bar app's CONTRIBUTING.md file and contribution guide prov
 The contributing.md file is a step-by-step description of their contribution method, which welcomes new members. The app's contribution guide lists several methods to become involved, demonstrating its dedication to diversity and support of contributors.
 In conclusion, the Prayer Times Menu bar app has worked hard to create an environment that is kind and inclusive of all contributions.
 
+## Activity 2 - Contribute to external community
+I started by choosing a problem in the Prayer Times menu bar app project, and then I cloned and forked the repository to my PC. I've since created a new branch that is dedicated to solving this problem. My current assignment entails researching the identified issue in-depth and creating comprehensive documentation. I've started compiling the necessary data to develop an organised and thorough understanding of the issue to help find a possible solution.
+
+## Activity 3 - Contribute to pattern library
