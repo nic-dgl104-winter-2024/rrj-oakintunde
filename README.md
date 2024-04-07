@@ -280,3 +280,42 @@ In conclusion, the Prayer Times Menu bar app has worked hard to create an enviro
 I started by choosing a problem in the Prayer Times menu bar app project, and then I cloned and forked the repository to my PC. I've since created a new branch that is dedicated to solving this problem. My current assignment entails researching the identified issue in-depth and creating comprehensive documentation. I've started compiling the necessary data to develop an organised and thorough understanding of the issue to help find a possible solution.
 
 ## Activity 3 - Contribute to pattern library
+To handle the problem labelled "Add Java template method for design pattern," which has been flagged as a good starting issue, I've chosen to use the Java template method implementation found in the pattern library. You may find the pertinent code and information in Issue 1. I'd like to contribute to this issue, so please assign me to it.
+
+## Reflection
+What is the hardest/most challenging thing you had to do this week for DGL 104? How did you overcome this challenge?
+
+* Response
+This week, solving a difficult code challenge involving design patterns was the most difficult part of DGL 104. It took a combination of persistence investigation, and peers to overcome this obstacle.
+
+I divided the issue into more manageable chunks and ranked them according to dependencies to start solving it. I used web resources and documentation to conduct a thorough investigation of pertinent topics and methods. I also used the knowledge and insights of my lecturers and classmates by actively participating in conversations and asking for their opinions.
+
+I overcame the obstacle and developed a deeper comprehension of the subject matter by using a methodical approach, remaining tenacious, and making use of the tools that were available to me.
+
+## References
+Project Repository - [Prayer Times Menubar App](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp)
+
+# Week 11 ( Mar. 18)
+## Activity 1 - Read through pattern library Issues
+
+
+## Activity 2 - Continue contributions to the external community
+
+
+
+## Activity 3 - Contribute to pattern library
+
+
+## Reflection
+
+
+# Week 12 (WEEK OF MARCH 25)
+## Community code assignment links - part one
+I started by sorting problems according to programming languages and ended up using the Menubar app called Prayer Times for this purpose. My goal was to make JavaScript and JSON functions more understandable. I then copied and forked the code to my computer. After that, I made a new branch called "prayer-times-menubar-app" and added the translation files for each language's folders (pa, it, and ng). Then, I commit and push my work into Github.
+## Community code assignment links - part two
+* I choose an issue to work on and request to get assigned to work on these issues Add Java Template Method Design pattern and Php Strategy Pattern.
+* Then, I forked and cloned the project into my machine.
+* After that, I establish a branch with the name "oakintunde".
+* Subsequently I made two files for both issues.
+* I got the request to change some content in both issues which, I elaborate on in my contribution.md file.
+Then, I commit and push my work into Github.
