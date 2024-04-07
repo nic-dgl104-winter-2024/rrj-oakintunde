@@ -330,7 +330,8 @@ I made separate branches for each assignment so that I could begin working on th
 I also started the process of creating the "contributing.md" and "readme.md" papers. These documents serve as a portfolio of my efforts and contributions to the topic at hand.
 
 ## Reflection
-
+* [Java Template Method](https://github.com/oakintunde/pattern-library/tree/oakintunde/JavaTemplateMethod)
+* [PhP Strategy Pattern](https://github.com/oakintunde/pattern-library/tree/oakintunde/php_strategy_pattern)
 
 # Week 12 (WEEK OF MARCH 25)
 ## Community code assignment links - part one
