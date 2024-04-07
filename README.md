@@ -194,18 +194,17 @@ To complete this activity, I thoroughly reviewed the issues in my chosen project
 [Here you can find the issues here](https://github.com/b0bdN/prayer-times-menubar-app/issues/3)
 Label: Enhancement, New feature, Help Wanted
 
-Issue description - The issue was opened by user "b0bdN" on Feb 15, 2022, expressing that the function getNextPrayer() in renderer.js can be better. The aim is to show the next prayer with the difference between the prayer time and the actual time. Also to add more language translation on the app.
+* Issue Description - The issue was opened by user "b0bdN" on Feb 15, 2022, expressing that the function getNextPrayer() in renderer.js can be better. The aim is to show the next prayer with the difference between the prayer time and the actual time. Also to add more language translation on the app.
+* Contribution - [Wrote JSON language translation for Pakistan, Nigerian (Yoruba language) and Italian](https://github.com/b0bdN/prayer-times-menubar-app/issues/26)
+* Conversations - I decided to work on the issue of the storybook project for contribution in my community code part 1
 
-Contribution - [Wrote JSON language translation for Pakistan, Nigerian (Yoruba language) and Italian](https://github.com/b0bdN/prayer-times-menubar-app/issues/26)
-Conversations - 
-
-## Project 2: Light house
+## Project 2: Lighthouse
 
 Here you can find the issue - [Add Applause-button to swag items #104
 ](https://github.com/GoogleChrome/lighthouse/issues/15891)
 Label: docs, P2
 
-Issue description - The issue was opened by user "ChristopherPHolder" in March 2024, lighthouse is exposing a method called startTimespan and unable to find any documentation on it: user-flow docs.
+Issue description - The issue was opened by user "ChristopherPHolder" in March 2024, the lighthouse is exposing a method called startTimespan and is unable to find any documentation on it: user-flow docs.
 
 Contribution - made the timespan work
 ```
@@ -235,7 +234,6 @@ writeFileSync('timespan-result.json', JSON.stringify(timespanResults, null, 2));
 
 await browser.close();
 ```
-
 Conversations - They discuss the node equivalent of running timespan mode in the DevTools panel. A flow you need to call flow.startTimespan to get timespan results in the flow report.
 
 ## Project 3: OpenSearch
@@ -247,6 +245,4 @@ Issue description - The issue was opened by user "sandervandegeijn" on Jan 15, 2
 
 Contribution - There is a need to work on improving the clarity of Compodoc's documentation within Angular CLI.
 
-Conversations - The labels like "good first issue" and "help wanted," this present an accessible opportunity for newcomers to contribute. The ongoing conversation revolves around understanding Compodoc's role, with key contributors providing insights into its functionality and interaction with Storybook.
-
-I decided to work on the issue of storybook project for contribution in my community code part 1.
+Conversations - The labels like "Storage  issue",  present an accessible opportunity for storage. The ongoing conversation revolves around understanding snapshots sto, with key contributors providing insights into its functionality and interaction with OpenSearch..
