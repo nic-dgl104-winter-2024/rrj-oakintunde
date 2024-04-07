@@ -258,3 +258,13 @@ Is the programming language that you chose last week still the right choice? Sho
 The thing that surprised me the most about open-source development and communities this week was how closely people from different backgrounds collaborated. It was incredibly motivating to see this degree of cooperation and shared enthusiasm for project advancement. I also learned a lot about issue tracking, community involvement, and the PR process, which improved my comprehension of open-source dynamics.
 I feel that JavaScript-based projects, especially ones that use open search and Lighthouse, pique my attention the most when it comes to open-source initiatives. These projects seem like a perfect fit for my experience with JavaScript, which will allow me to make significant contributions and advance personally.
 About last week's programming language selection, JavaScript continues to be the best option for me because of its adaptability and extensive usage in the initiatives that I find appealing. Alternatives, though, are welcome to be investigated if they better fit the plans for upcoming projects.
+
+References
+How to contribute to open source. (2024, February 8). Open Source Guides: (https://opensource.guide/how-to-contribute/)
+
+[Good First Issues](https://goodfirstissue.dev/)
+
+[Up for Grabs](https://up-for-grabs.net/#/)
+
+[CodeTriage](https://www.codetriage.com/)
+
