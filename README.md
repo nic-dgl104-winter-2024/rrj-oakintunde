@@ -298,13 +298,36 @@ Project Repository - [Prayer Times Menubar App](https://github.com/oakintunde/pr
 # Week 11 ( Mar. 18)
 ## Activity 1 - Read through pattern library Issues
 
-
 ## Activity 2 - Continue contributions to the external community
+* Repository: [Prayer Times Menubar App](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp)
+* Branch: oakintunde
 
+## Contributions:
+* Forked and cloned the original repository to my local machine.
+* Created a new branch named "oakintunde" for my contributions.
+* Added a new file to showcase my contributions to the issue "More clarity on translating to three other languages and adding a JavaScript function for reminders of prayer time."
+Contributions Details:
+
+## Translation Enhancements:
+* Researched and defined the purpose and functionality of the Prayer Times Menubar App in the README.md file.
+* Clarified the translation process for three additional languages (e.g., French, Spanish, and Arabic) in the README.md file for better understanding and implementation by contributors.
+
+## JavaScript Functionality:
+* Implemented a JavaScript function to provide reminders for prayer times within the app.
+* Documented the JavaScript function's usage, parameters, and integration steps in the README.md file with references for further information.
+
+## References:
+* Original Repository Issue: More Clarity on Translating to Three Other Languages and Adding JavaScript Function for Reminders Documentation Standards for Contributors
+Next Steps:
+* [Submit a pull request from the "oakintunde" branch to the original repository.](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp/locales)
+* Request feedback from maintainers and community members for further improvements and validation of contributions.
+* Note: This summary provides an overview of the contributions made to address the specified issue in the Prayer Times Menubar App repository. Detailed documentation and code implementation can be found in the respective files and branches within the repository.
 
 
 ## Activity 3 - Contribute to pattern library
+I made separate branches for each assignment so that I could begin working on the allocated issue related to the pattern library. I created a branch called "oakintunde" and divided the files into the "php_strategy_pattern" and "JavaTemplateMethod" folders for the first problem. After concentrating on implementing user login and signup authentication for the PHP strategy pattern, I worked on the Java template method, which outlines an algorithm's fundamental structure in a method and assigns specific stages to subclasses. With this method, subclasses can give particular implementations for certain phases while still preserving the algorithm's general structure.
 
+I also started the process of creating the "contributing.md" and "readme.md" papers. These documents serve as a portfolio of my efforts and contributions to the topic at hand.
 
 ## Reflection
 
