@@ -259,7 +259,7 @@ The thing that surprised me the most about open-source development and communiti
 I feel that JavaScript-based projects, especially ones that use open search and Lighthouse, pique my attention the most when it comes to open-source initiatives. These projects seem like a perfect fit for my experience with JavaScript, which will allow me to make significant contributions and advance personally.
 About last week's programming language selection, JavaScript continues to be the best option for me because of its adaptability and extensive usage in the initiatives that I find appealing. Alternatives, though, are welcome to be investigated if they better fit the plans for upcoming projects.
 
-References
+## References
 How to contribute to open source. (2024, February 8). Open Source Guides: (https://opensource.guide/how-to-contribute/)
 
 * [Good First Issues](https://goodfirstissue.dev/)
@@ -267,4 +267,13 @@ How to contribute to open source. (2024, February 8). Open Source Guides: (https
 * [CodeTriage](https://www.codetriage.com/)
 
 
+## Week 10 ( Mar. 11)
+## Activity 1 - Assess external community contribution Guidelines
+## Task
+The task is to see if the project has instructions on how to contribute. If it does, read them carefully and follow the steps. If not, decide if still contribute can be done or try to learn more about the project's community. There is no need to submit any code yet but make sure to achieve the understanding of how to contribute.
+
+* Result
+The Prayer Times Menu bar app's CONTRIBUTING.md file and contribution guide provide contributors with extensive instruction. In their Readme.md, they also provide insightful details on the sponsors, platforms, and helpful communities they use. They also follow the Contributor Covenant Code of Conduct to guarantee that no one in the community is harassed.
+The contributing.md file is a step-by-step description of their contribution method, which welcomes new members. The app's contribution guide lists several methods to become involved, demonstrating its dedication to diversity and support of contributors.
+In conclusion, the Prayer Times Menu bar app has worked hard to create an environment that is kind and inclusive of all contributions.
 
