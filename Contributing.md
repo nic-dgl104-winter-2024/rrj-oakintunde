@@ -123,24 +123,29 @@ My curiosity motivates me to conduct further research to develop a deeper unders
 * Forked Repository - [Prayer Times Menubar App](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp)
 
 # Community Code Contribution Information - Part two
-
 ## Project - Pattern Library
-
 ## About Pattern Library
+The "DGL 104 Pattern Library," includes implementing common software design patterns and describing architecture patterns in various programming languages. Contributions must adhere to open-source project standards, including pull request submissions and issue management for students to contribute and learn.
 
-## Contribution Details - Issue 1
+## Contribution Details - [Issue 1](https://github.com/nic-dgl104-winter-2024/pattern-library/issues/67)
 
-## Forked Repository link - Pattern Library
-
-## Selected Issue 1 - Add Java Template Method for Design Pattern 
-
+## Forked Repository link -[ Pattern Library](https://github.com/oakintunde/pattern-library/tree/oakintunde)
+## Selected Issue 1 - Add Javascript implementation of Strategy pattern
 ## About selected Issue 1
+The GitHub issue intends to add a JavaScript implementation of the Strategy pattern in order to improve the project's usefulness. Development will be more flexible and scalable thanks to this improvement, which will also improve the maintainability and organisation of the code. The project may better separate its concerns and facilitate dynamic algorithm selection at runtime by applying the Strategy pattern, which will also increase its adaptability to changing requirements.
 
 ## Contributors
-
+* ting-dev-coder Ting Yu Chen
+* 8968sam Sam
+* manasvi111
+* and some unassigned contributors
 
 ## Work Done
-
+* I choose this problem, apply some labels to it, fork it, and clone it into my machine.
+* I then created a distinct workspace named "javatemplatemethod" where I worked on this particular issue.
+* I have submitted two pull requests for this issue: one for my solo effort and the other for the collective work.
+* We got together, discussed the criticism of our initial pull request, and worked on the necessary adjustments to produce a new one.
+* Then I pushed the work to Github after committing it.
 
 ## Old pull request outcome
 
