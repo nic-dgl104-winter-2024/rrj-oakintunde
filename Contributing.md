@@ -69,13 +69,37 @@ With the help of the Prayer Times Menubar App, you can easily view the precise t
 All things considered, the Prayer Times Menubar App helps people with their regular prayer routines by providing a user-friendly design, customisable choices, and accurate computations. The [Prayer Times Menubar App](https://github.com/b0bdN/prayer-times-menubar-app/tree/master?tab=readme-ov-file) allows you to get further into the app and view its source code.
 
 # Contribution Details
-## Forked Repository link - Prayer times menubar app
-
-## Choose Issue - More clarity on what including compodoc does?
+## Forked Repository link - [Prayer Times Menubar App](https://github.com/b0bdN/prayer-times-menubar-app/)
+## Issues - [Opened and Available Issues](https://github.com/b0bdN/prayer-times-menubar-app/issues)
 
 ## Issue Labels
+* Enhancement
+* New feature
+* Help wanted
+* First issue
 
 ## Detailed Explanation of Issue
+There are a few issues that have been worked on in the issue directory and some were stated in the repository readme.md like creating more language translations and getting reminders before prayer time.
+On this issue: https://github.com/b0bdN/prayer-times-menubar-app/issues/4 You can let the method .toLocaleTimeString() get the default locale in store.js. To do this, you have to use an empty array: .toLocaleTimeString([], options)
+If the local is needed, you can add a new argument to the function getTableTimings(). You'll have to add this argument before calling the function in main.js. You can use app.getLocale() in main.js to get the current locale.
+```
+// store.js
+const getTableTimings = (locale, newMonth, newDate) => {...}
+
+// main.js
+const initData = () => {
+  // ...
+  const locale = app.getLocale()
+  const tableTimings = store.getTableTimings(locale)
+  // ...
+}
+```
+In addition to the notifications, we can add an option to have the Adhan. Thanks to AlAdhan.com for providing us with adhans in MP3 format.
+Here is the link: https://aladhan.com/download-adhans
+Here's what we need:
+* a checkbox to enable/disable the sound
+* Options to choose between the different Adhans.
+* The Adhan should be triggered at the same time as the notification
 
 ## Work Done
 
