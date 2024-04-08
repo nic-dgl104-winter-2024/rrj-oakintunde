@@ -1,29 +1,26 @@
-# External Communitiy Contribution Guidelines for selected Project - Part one
-
-
+# External Community Contribution Guidelines for selected Project - Part one
 
 ## Contributor Covenant Code of Conduct
-
 
 ## Contribution guidelines
 
 ##  Step by Step Procedure to contribute
 
-
 ## References
-
 
 # Community Code Contribution Information - Part one
 
-## Project - Storybook
+## Project - Prayer times menubar app
 
 
-## About Storybook
+## About Prayer times menubar app
 
 
 # Contribution Details
-## Forked Repository link - Storybook
+## Forked Repository link - Prayer times menubar app
+
 ## Choose Issue - More clarity on what including compodoc does?
+
 ## Issue Labels
 
 ## Detailed Explanation of Issue
@@ -48,7 +45,7 @@
 
 ## Forked Repository link - Pattern Library
 
-## Selected Issue 1 - Add React Native Implementation for Singleton Pattern #8
+## Selected Issue 1 - Add Java Template Method for Design Pattern 
 
 ## About selected Issue 1
 
@@ -68,6 +65,8 @@
 ## Reflection on success
 
 ## Contribution Details - Issue 2
-## Forked Repository link - Pattern Library
+
+## Forked Repository link - Php Strategy Design Pattern 
+
 ## Selected Issue 2 - Write the definition of the Template pattern in README.md
 
