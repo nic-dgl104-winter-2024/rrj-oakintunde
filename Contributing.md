@@ -102,8 +102,15 @@ Here's what we need:
 * The Adhan should be triggered at the same time as the notification
 
 ## Work Done
+* I Forked and cloned the project to my machine.
+* After that, I establish a new branch with the name oakintunde to work on the issue.
+* Did research about using node fetch, renderer.js and ipinfo.io for node projects which were provided as references.
+* Then after, I create a subfolder in locales with the name in the folders "pa, it and ng" and add everything relevant to the topic.
+* Also, I made a contribution file under the name "contribution.md" to describe my contribution to this work.
+* Then I commit and push all the content to GitHub.
 
 ## Code Review and Outcome
+Code quality, consistency, and adherence to best practices are ensured via code review, which is an essential component of software development. The way that Basit Awofeso reviewed your documentation shows that you are working together to make improvements. You can improve readability and offer useful insights by including "Real-world examples" in your README, such as node-fetch and ipinfo for Angular projects. This procedure encourages ongoing learning and development within the development community in addition to validating your work. Robust and user-friendly software solutions are finally produced through transparent and cooperative code review and behaviour.
 
 ## Reflection on Success
 
