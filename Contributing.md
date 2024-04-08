@@ -116,8 +116,11 @@ Code quality, consistency, and adherence to best practices are ensured via code 
 Making a contribution to the Prayer Times Menubar App's GitHub issue proved to be beneficial. The app's accessibility was expanded by me by adding support for the Yoruba languages spoken in Nigeria, Italy, and Pakistan. By integrating node-fetch, the user experience was improved by the smooth reminders of prayer times. The utilisation of Aladhan.com's RESTful Prayer Times API guaranteed precise and current prayer timings. This fruitful effort enhanced functionality and added new language options, making the software more dependable and accessible for users all over the world. It made a significant impact on the app's capabilities by demonstrating the strength of creativity and teamwork in open-source development.
 
 ## Next Steps
+My curiosity motivates me to conduct further research to develop a deeper understanding of this subject as I learn more about it. Moreover, my goal is to implement it so that I may personally witness its actual results.
 
 ## Project Contribution Links
+* Project link - [Prayer Times Menubar App](https://github.com/b0bdN/prayer-times-menubar-app)
+* Forked Repository - [Prayer Times Menubar App](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp)
 
 # Community Code Contribution Information - Part two
 
