@@ -113,6 +113,7 @@ Here's what we need:
 Code quality, consistency, and adherence to best practices are ensured via code review, which is an essential component of software development. The way that Basit Awofeso reviewed your documentation shows that you are working together to make improvements. You can improve readability and offer useful insights by including "Real-world examples" in your README, such as node-fetch and ipinfo for Angular projects. This procedure encourages ongoing learning and development within the development community in addition to validating your work. Robust and user-friendly software solutions are finally produced through transparent and cooperative code review and behaviour.
 
 ## Reflection on Success
+Making a contribution to the Prayer Times Menubar App's GitHub issue proved to be beneficial. The app's accessibility was expanded by me by adding support for the Yoruba languages spoken in Nigeria, Italy, and Pakistan. By integrating node-fetch, the user experience was improved by the smooth reminders of prayer times. The utilisation of Aladhan.com's RESTful Prayer Times API guaranteed precise and current prayer timings. This fruitful effort enhanced functionality and added new language options, making the software more dependable and accessible for users all over the world. It made a significant impact on the app's capabilities by demonstrating the strength of creativity and teamwork in open-source development.
 
 ## Next Steps
 
