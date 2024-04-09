@@ -51,7 +51,6 @@ function geolocation () {
 * Node Fetch - https://nodejs.org/dist/latest-v18.x/docs/api/globals.html
 
 # Community Code Contribution Information - Part one
-
 ## Project - Prayer Times Menubar App
 ## About Prayer Times Menubar App
 With the help of the Prayer Times Menubar App, you can easily view the precise times of prayer based on the location of your city. It provides several features to improve customisation and user experience, including:
@@ -123,7 +122,7 @@ My curiosity motivates me to conduct further research to develop a deeper unders
 * Forked Repository - [Prayer Times Menubar App](https://github.com/oakintunde/prayer-times-menubar-app/tree/oakintundeDGL104PrayerTimesApp)
 
 # Community Code Contribution Information - Part two
-## Project - Pattern Library
+## Project - [Pattern Library](https://github.com/nic-dgl104-winter-2024/pattern-library)
 ## About Pattern Library
 The "DGL 104 Pattern Library," includes implementing common software design patterns and describing architecture patterns in various programming languages. Contributions must adhere to open-source project standards, including pull request submissions and issue management for students to contribute and learn.
 
@@ -162,9 +161,169 @@ Enhanced code structure and quality.
 ## Reflection on success
 Using JavaScript to implement the Strategy design pattern was a reflection of my development journey's success. Algorithms were divided into distinct classes and dynamic switching between them was allowed to make the code more scalable, adaptable, and manageable. The short lines of code showed the value of encapsulation and abstraction, improving code readability and cutting down on redundancy. This implementation revealed that design patterns are a useful tool for resolving complex issues and also enhanced the organisation of the codebase. It was a worthwhile educational experience that helped me develop reliable and effective software solutions.
 
-## Contribution Details - Issue 2
+## Contribution Details - [Issue 2](https://github.com/nic-dgl104-winter-2024/pattern-library/issues/68)
 
-## Forked Repository link - Php Strategy Design Pattern 
+## Forked Repository link - [Php Strategy Design Pattern](https://github.com/oakintunde/pattern-library/tree/oakintunde/php_strategy_pattern) 
 
-## Selected Issue 2 - Write the definition of the Template pattern in README.md
+## About Strategy Design Pattern
+A behavioural design pattern called the Strategy Design Pattern lets you define a family of algorithms, package them all, and make them interchangeable. The algorithm can change independently of the clients using it thanks to this pattern. The Strategy Pattern in PHP is very helpful for detaching algorithms from their clients or for constructing algorithms that can be changed at runtime.
+This is a thorough explanation of the PHP Strategy Design Pattern:
+### Goal:
+* Specify a group of algorithms, package them all, and ensure that they may be used interchangeably. Differentiating the algorithm from the environment in which it is used is up to the clients.
+The strategy algorithms' interface or abstract class is declared by the following participants:
+* Strategy Interface/Abstract Class. It describes a technique or group of techniques that The tangible tactics will be put into practice.
+* Concrete Strategies: Provides particular algorithm implementations for the Strategy interface/abstract class.
+* Context: Contains a pointer to the abstract class/interface for strategy. It enables the client to dynamically transition between various strategies.
+Example of Implementation: Suppose we have a payment system in which many payment modalities (strategies) are interchangeable.
+* Interface for Strategy:
+```
+interface PaymentStrategy {
+    public function pay(float $amount): void;
+}
+```
 
+* Concrete Strategies:
+```
+class CreditCardPayment implements PaymentStrategy {
+    public function pay(float $amount): void {
+        // Implement credit card payment logic
+    }
+}
+
+class PayPalPayment implements PaymentStrategy {
+    public function pay(float $amount): void {
+        // Implement PayPal payment logic
+    }
+}
+```
+
+* Context:
+```
+class PaymentContext {
+    private $paymentStrategy;
+
+    public function __construct(PaymentStrategy $paymentStrategy) {
+        $this->paymentStrategy = $paymentStrategy;
+    }
+
+    public function setPaymentStrategy(PaymentStrategy $paymentStrategy): void {
+        $this->paymentStrategy = $paymentStrategy;
+    }
+
+    public function processPayment(float $amount): void {
+        $this->paymentStrategy->pay($amount);
+    }
+}
+```
+
+* **Usage:**
+```
+// Create payment strategies
+$creditCardPayment = new CreditCardPayment();
+$payPalPayment = new PayPalPayment();
+
+// Initialize context with default payment strategy
+$paymentContext = new PaymentContext($creditCardPayment);
+
+// Process payments using different strategies
+$paymentContext->processPayment(100); // Uses credit card payment
+$paymentContext->setPaymentStrategy($payPalPayment);
+$paymentContext->processPayment(50); // Uses PayPal payment
+```
+
+## The advantages of the strategy pattern
+* Flexibility: Strategies don't need to update the client code to be added, removed, or altered during runtime.
+Code management and maintenance are facilitated by the encapsulation of each method.
+* Decoupling: By separating context and client code from particular algorithm implementations, code modularity and reusability are encouraged.
+* Testability: The process of testing can be improved by the ability to test strategies separately.
+
+By separating algorithms from their usage, offering flexibility, and encouraging code reuse, the Strategy Design Pattern in PHP, in general, helps to create a clear and manageable code structure.
+
+## Selected Issue 2 - Develop PHP Strategy Design Pattern
+* **Sign up page**
+```
+<?php
+class SignUpForm {
+    public function handleSignup(User $user, $username, $password) {
+        $user->signup($username, $password);
+    }
+}
+?>
+```
+* **Login Form**
+```
+<?php
+class LoginForm {
+    public function handleLogin(User $user, $username, $password) {
+        $user->login($username, $password);
+    }
+}
+?>
+```
+
+* **Index.php**
+```
+<?php
+include_once 'User.php';
+include_once 'strategies/EmailPasswordStrategy.php';
+include_once 'strategies/SocialLoginStrategy.php';
+include_once 'LoginForm.php';
+include_once 'SignUpForm.php';
+
+// Create user instance
+$user = new User();
+
+// Set email/password authentication strategy
+$user->setAuthenticationStrategy(new EmailPasswordStrategy());
+
+// Handle login using email/password
+$loginForm = new LoginForm();
+$loginForm->handleLogin($user, 'user@example.com', 'password');
+
+// Set social login authentication strategy
+$user->setAuthenticationStrategy(new SocialLoginStrategy());
+
+// Handle login using social login
+$loginForm->handleLogin($user, 'socialuser', 'socialpassword');
+
+// Handle signup
+$signupForm = new SignUpForm();
+$signupForm->handleSignup($user, 'newuser@example.com', 'newpassword');
+?>
+```
+
+* **User.php**
+```
+<?php
+include_once 'strategies/AuthenticationStrategy.php';
+
+class User {
+    private $authenticationStrategy;
+
+    public function setAuthenticationStrategy(AuthenticationStrategy $strategy) {
+        $this->authenticationStrategy = $strategy;
+    }
+
+    public function signup($username, $password) {
+        // Mocking signup logic
+        echo "User signed up successfully.\n";
+    }
+
+    public function login($username, $password) {
+        // Using the selected authentication strategy to authenticate
+        if ($this->authenticationStrategy->authenticate($username, $password)) {
+            echo "User logged in successfully.\n";
+        } else {
+            echo "Login failed. Invalid credentials.\n";
+        }
+    }
+}
+?>
+```
+
+## References
+* Project link - [Pattern Library](https://github.com/nic-dgl104-winter-2024/pattern-library)
+* Forked Repository link -[Pattern Library](https://github.com/oakintunde/pattern-library/tree/oakintunde)
+* Forked Repository link - [Php Strategy Design Pattern](https://github.com/oakintunde/pattern-library/tree/oakintunde/php_strategy_pattern) 
+* Issue 1 - [Add Javascript implementation of Strategy pattern](https://github.com/nic-dgl104-winter-2024/pattern-library/issues/67)
+* Issue 2 - [Php Strategy Design Pattern](https://github.com/nic-dgl104-winter-2024/pattern-library/issues/68)
