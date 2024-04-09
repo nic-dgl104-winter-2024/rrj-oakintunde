@@ -132,7 +132,7 @@ The "DGL 104 Pattern Library," includes implementing common software design patt
 ## Forked Repository link -[ Pattern Library](https://github.com/oakintunde/pattern-library/tree/oakintunde)
 ## Selected Issue 1 - Add Javascript implementation of Strategy pattern
 ## About selected Issue 1
-The GitHub issue intends to add a JavaScript implementation of the Strategy pattern in order to improve the project's usefulness. Development will be more flexible and scalable thanks to this improvement, which will also improve the maintainability and organisation of the code. The project may better separate its concerns and facilitate dynamic algorithm selection at runtime by applying the Strategy pattern, which will also increase its adaptability to changing requirements.
+The GitHub issue intends to add a JavaScript implementation of the Strategy pattern to improve the project's usefulness. Development will be more flexible and scalable thanks to this improvement, which will also improve the maintainability and organisation of the code. The project may better separate its concerns and facilitate dynamic algorithm selection at runtime by applying the Strategy pattern, which will also increase its adaptability to changing requirements.
 
 ## Contributors
 * ting-dev-coder Ting Yu Chen
@@ -142,19 +142,25 @@ The GitHub issue intends to add a JavaScript implementation of the Strategy patt
 
 ## Work Done
 * I choose this problem, apply some labels to it, fork it, and clone it into my machine.
-* I then created a distinct workspace named "javatemplatemethod" where I worked on this particular issue.
+* I then created a distinct workspace named "java template method" where I worked on this particular issue.
 * I have submitted two pull requests for this issue: one for my solo effort and the other for the collective work.
 * We got together, discussed the criticism of our initial pull request, and worked on the necessary adjustments to produce a new one.
 * Then I pushed the work to Github after committing it.
 
-## Old pull request outcome
-
-## New Pull Request
-
-
 ## Code Review and Outcomes
+Reviewing the code with Basit, Alina, and Swathy:
+1. Examined the Strategy pattern's JavaScript implementation.
+2. Verified that the code adhered to coding standards and was readable.
+3. The merits of better code organisation and flexibility were discussed.
+4. Potential duplication and optimisation opportunities were addressed as cons.
+5. Efficiency-enhancing suggestions.
+6. Worked together to guarantee code quality and handle problems.
+Results: - Improved comprehension of JavaScript's Strategy pattern.
+Enhanced code structure and quality.
+- Improved cooperation and teamwork abilities.
 
 ## Reflection on success
+Using JavaScript to implement the Strategy design pattern was a reflection of my development journey's success. Algorithms were divided into distinct classes and dynamic switching between them was allowed to make the code more scalable, adaptable, and manageable. The short lines of code showed the value of encapsulation and abstraction, improving code readability and cutting down on redundancy. This implementation revealed that design patterns are a useful tool for resolving complex issues and also enhanced the organisation of the codebase. It was a worthwhile educational experience that helped me develop reliable and effective software solutions.
 
 ## Contribution Details - Issue 2
 
